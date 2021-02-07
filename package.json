@@ -1,0 +1,39 @@
+{
+    "name": "mdsnippets",
+    "displayName": "MDsnippets",
+    "description": "Get super simple snippets for your .md (MarkDown) files.",
+    "version": "1.0.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/code-reaper08/MDsnippets"
+      },
+    "publisher": "VishwaR",
+    "icon": "icon.png",
+    "galleryBanner": {
+        "color": "#C80000",
+        "theme": "dark"
+      },
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "keywords": [
+        "Markdown",
+        ".md files",
+        "Easy",
+        "Snippets",
+        "code",
+        "Mdsnippets",
+        "All"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "markdown",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}

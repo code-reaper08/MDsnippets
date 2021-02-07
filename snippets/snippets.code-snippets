@@ -1,0 +1,233 @@
+{
+    "Heading 1":{
+        "prefix": "!h1",
+        "body": [
+            "# ${1:Content}"
+        ],
+        "description": "Creates a H1 heading"
+    },
+    "Heading 2":{
+        "prefix": "!h2",
+        "body": [
+            "## ${1:Content}"
+        ],
+        "description": "Creates a H2 heading"
+    },
+    "Heading 3":{
+        "prefix": "!h3",
+        "body": [
+            "### ${1:Content}"
+        ],
+        "description": "Creates a H3 heading"
+    },
+    "Heading 4":{
+        "prefix": "!h4",
+        "body": [
+            "#### ${1:Content}"
+        ],
+        "description": "Creates a H4 heading"
+    },
+    "Heading 5":{
+        "prefix": "!h5",
+        "body": [
+            "##### ${1:Content}"
+        ],
+        "description": "Creates a H5 heading"
+    },
+    "Heading 6":{
+        "prefix": "!h6",
+        "body": [
+            "###### ${1:Content}"
+        ],
+        "description": "Creates a H6 heading"
+    },
+    "Italics":{
+        "prefix": "!it",
+        "body": [
+            "_${1:italic text}_"
+        ],
+        "description": "Creates a italic text"
+    },
+    "Bold":{
+        "prefix": "!b",
+        "body": [
+            "**${1:BOLD text here}**"
+        ],
+        "description": "Creates a bold text"
+    },
+    "Ordered List":{
+        "prefix": "!ol",
+        "body": [
+            "1. ${1:item1}",
+            "2. ${2:item2}",
+            "3. ${3:item3}"
+        ],
+        "description": "Creates a ordered list"
+    },
+    "Unordered List":{
+        "prefix": "!ul",
+        "body": [
+            "+ ${1:item1}",
+            "+ ${2:item2}",
+            "+ ${3:item3}"
+        ],
+        "description": "Creates a Unordered list"
+    },
+    "Link with Title":{
+        "prefix": "!lnkt",
+        "body": [
+            "[${1:Title}](${2:Link})"
+        ],
+        "description": "Creates a link with title"
+    },
+    "Mailto":{
+        "prefix": "!mailto",
+        "body": [
+            "[${1:Clickable Display Text}](mailto:${2:email address here}?subject=[${3:subject here}]%20Source%20Han%20Sans)"
+        ],
+        "description": "Creates a mailto link for easy mailing scenarios"
+    },
+    "Image with title on hover":{
+        "prefix": "!imghov",
+        "body": [
+            "![${1:alt text}](${2:Image link} \"${3:Hover Text}\")"
+        ],
+        "description": "Creates a image with a hover text"
+    },
+    "single line code":{
+        "prefix": "!cs",
+        "body": [
+            "`${1:Code here}`"
+        ],
+        "description": "Creates a single line code(inline)"
+    },
+    "Block of code":{
+        "prefix": "!cb",
+        "body": [
+            "```${1:Language}",
+            "$0",
+            "```"
+        ],
+        "description": "Creates a Code Block"
+    },
+    "Table 1X2":{
+        "prefix": "!t12",
+        "body": [
+            "| ${1:1,1}      | ${2: 1,2}           |",
+            "| ------------- |:-------------:|"
+        ],
+        "description": "creates a 1X2 table"
+    },
+    "Table 1X3":{
+        "prefix": "!t13",
+        "body": [
+            "| ${1:1,1}        | ${2:1,2}           | ${3:1,3}  |",
+            "| ------------- |:-------------:| -----:|",
+        ],
+        "description": "Craetes a 1X3 table"       
+    },
+    "Table 2X1":{
+        "prefix": "!t21",
+        "body": [
+            "| ${1:1,1}      |",
+            "| ------------- |",
+            "| ${2:2,1}      ||"
+        ],
+        "description": "creates a 2X1 table"
+    },
+    "Table 2X2":{
+        "prefix": "!t22",
+        "body": [
+            "| ${1:1,1}      | ${2: 1,2}           |",
+            "| ------------- |:-------------:|",
+            "| ${3:2,1}      | ${4:2,2} |"
+        ],
+        "description": "creates a 2X2 table"
+    },
+    "Table 2X3":{
+        "prefix": "!t23",
+        "body": [
+            "| ${1:1,1}        | ${2:1,2}           | ${3:1,3}  |",
+            "| ------------- |:-------------:| -----:|",
+            "|  ${4:2,1}      |${5:2,2} | ${6:2,3} |"
+           
+        ],
+        "description": "Creates a 2X3 table"       
+    },
+    "Table 3X1":{
+        "prefix": "!t31",
+        "body": [
+            "| ${1:1,1}        |",
+            "| ------------- |",
+            "|  ${4:2,1}      |",
+            "| ${7:3,1}      |"
+        ],
+        "description": "Craetes a 3X1 table"       
+    },
+    "Table 3X2":{
+        "prefix": "!t32",
+        "body": [
+            "| ${1:1,1}        | ${2:1,2}           |",
+            "| ------------- |:-------------:|",
+            "|  ${4:2,1}      |${5:2,2} |",
+            "| ${7:3,1}      | ${8:3,2}      |"
+        ],
+        "description": "Craetes a 3X2 table"       
+    },
+    "Table 3X3":{
+        "prefix": "!t33",
+        "body": [
+            "| ${1:1,1}        | ${2:1,2}           | ${3:1,3}  |",
+            "| ------------- |:-------------:| -----:|",
+            "|  ${4:2,1}      |${5:2,2} | ${6:2,3} |",
+            "| ${7:3,1}      | ${8:3,2}      |   ${9:3,3} |"
+        ],
+        "description": "Craetes a 3X3 table"       
+    },
+  
+    "blockquotes":{
+        "prefix": "!bq",
+        "body": [
+            "> ${1:Text here}"
+        ],
+        "description": "Creates a blockquote"
+    },
+    "Horizontal Line":{
+        "prefix": "!hl",
+        "body": [
+            "---"
+        ],
+        "description": "Inserts a horizontal line seperator"
+    },
+    "Strikethrough":{
+        "prefix": "!strike",
+        "body": [
+            "~~${1:Text here}~~"
+        ],
+        "description": "Creates a strikethrough text"
+    },
+
+    //github specific markdown snippets
+
+    "mention":{
+        "prefix": "!m",
+        "body": [
+            "@${1:Username}"
+        ],
+        "description": "Creates a mention "
+    },
+    "Checklist item (Checked)":{
+        "prefix": "!cic",
+        "body": [
+            "- [x] ${1:Checked item}"
+        ],
+        "description": "Creates a checked item"
+    },
+    "Checklist item (UnChecked)":{
+        "prefix": "!ciu",
+        "body": [
+            "- [ ] ${1:Unchecked item}"
+        ],
+        "description": "Creates a Unchecked item"
+    }
+}
