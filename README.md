@@ -5,7 +5,7 @@
 ![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/vishwar.mdsnippets?style=for-the-badge) ![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/vishwar.mdsnippets?style=for-the-badge) ![Visual Studio Marketplace Release Date](https://img.shields.io/visual-studio-marketplace/release-date/vishwar.mdsnippets?style=for-the-badge) ![Visual Studio Marketplace Rating (Stars)](https://img.shields.io/visual-studio-marketplace/stars/vishwar.mdsnippets?style=for-the-badge)
 # MDsnippets README
 
-**Thank you people for 600+ downloads**
+**Thank you people for 610+ downloads**
 
 Editing Markdown files made easy with a single click.
 
