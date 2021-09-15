@@ -29,9 +29,11 @@ MDsnippets use **Tab completion** feature.
 To enable Tab completion feature,
 
 1. `File -> preferences -> settings`(or) `Ctrl+,`
+
 ![settings](https://user-images.githubusercontent.com/64256342/107140350-5aafd780-6947-11eb-9b78-35bad121b5e6.png)
 
 2. inside `settings` search for **Tab completion** and enable it if it is disabled by default.
+
 ![settings](https://user-images.githubusercontent.com/64256342/107140357-60a5b880-6947-11eb-8633-31a6ffb7ec8d.png)
 
 3. You can also use ``"editor.tabCompletion": "on"`` in search bar of settings to enable it.
@@ -46,6 +48,7 @@ To enable Tab completion feature,
 * Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
 * Press `tab` after typing the trigger word.
 ----------------------------------------------------------------------------------------------------------
+
 ![table](https://user-images.githubusercontent.com/64256342/107141413-8a161280-694e-11eb-812b-6a35bcefa317.png)
 
 
